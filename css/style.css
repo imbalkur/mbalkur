@@ -17,7 +17,7 @@ a{
 }
 
 .container {
-  max-width: 1000px !important;
+  max-width: 1200px !important;
 }
 
 
@@ -27,6 +27,7 @@ a{
   font-weight: 700;
   height: 4rem;
   transition: 0.2s all ease-in;
+  position: fixed;
 }
 
 .navbar-brand {
@@ -46,7 +47,7 @@ a{
 
 /* home */
 #home {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: coral;
   background-image: url(../images/herosvg.svg);
@@ -56,7 +57,7 @@ a{
   background-position-y: 60%;
 }
 
-.hero-title {
+.home-title {
   font-weight: 900;
   font-size: 3rem;
 }
@@ -94,24 +95,26 @@ a{
 /* portfolio */
 
 #portfolio{
-  background: #ECE9E6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(241, 241, 241);
+  /* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to left, #FFFFFF, #ECE9E6); */
   text-align: center;
 }
 
 .box {
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #portfolio .image {
   display: block;
-  height: 300px;
+  height: 250px;
   width: 500px;
+  margin: auto;
   overflow: hidden;
   position: relative;
+  /* left: -10%; */
 }
 
 #portfolio .box:hover .image{
@@ -126,7 +129,7 @@ a{
   left: 0;
   right: 0;
   height: 100%;
-  width: 500px;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(2, 2, 2, 0.5);
@@ -150,27 +153,47 @@ a{
   opacity: 0;
 }
 
+.box button {
+  background: rgb(253, 108, 55);
+}
+
+.box button:hover {
+  background: rgb(201, 71, 24);
+}
+
+.box a, .box button:hover a {
+  color: white;
+}
+
 
 
 /* contact */
 
 #contact {
-  background: #f46b45;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #f46b45; */
+  /* background: -webkit-linear-gradient(to right, #eea849, #f46b45);
+  background: linear-gradient(to right, #eea849, #f46b45); */
 }
 
-.contact-body{
+.contact-body {
   color: white;
   font-size: 30px;
   font-weight: 600;
 }
 
-#contact .btn{
+#contact .btn {
   padding: 1rem 3rem;
   font-size: 1rem;
   text-transform: uppercase;
-} 
+}
+
+#contact .btn a {
+  color: black;
+}
+
+#contact .btn:hover a{
+  color: white;
+}
 
 
 
@@ -268,7 +291,7 @@ ul{
   cursor:default;
 }
 
-@media (max-width: 880px){
+@media (max-width: 700px){
 
   .navbar{
     height: unset;
@@ -282,7 +305,7 @@ ul{
     overflow-x: hidden;
   }
 
-  .hero-title{
+  .home-title{
     padding-top: 1rem;
     font-size: 2rem;
   }

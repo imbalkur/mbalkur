@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
      <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -24,11 +24,11 @@
 
   <!-- navigation bar -->
 
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">Manjushree</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class=""><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
@@ -52,15 +52,15 @@
       </div>
   </nav>
 
-  <!-- hero -->
+  <!-- home -->
 
   <section id="home" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
-            <div class="col-sm-8">
-              <h3 class="hero-greeting">Hello,</h3>
-              <h1 class="hero-title">I am Manjushree Balkur</h1>
-              <h2 class="hero-subtitle">A Web Developer</h2>
+            <div class="col-sm-8 ">
+              <h3 class="home-greeting">Hello,</h3>
+              <h1 class="home-title">I am Manjushree Balkur</h1>
+              <h2 class="home-subtitle">A Web Developer</h2>
             </div>
             <div class="col-sm-4">
               <!-- One of three columns -->
@@ -81,11 +81,20 @@
           <h1 class="section-title">About me</h1><br>
           <div>
             <p>
-              Hi! I am Web Developer based in Mumbai,India.
+              Hi! I’m a software developer based in Mumbai.
+            </p>
+            <p>
+              I started learning to code when I was in first year of undergraduate program, which was when I created my first website. After creating several websites and writing several scripts I was fascinated by how incredible the software is.  That's when I decided software developer is right choice for me. 
+            </p>
+            <p>
+              Since then,  I have done countless projects and elevated my programming skills. Today I am working as a software developer.
+            </p>
+            <p>
+              I’m conversant with languages like Javascript, Php, Python, Html, Css, also some frontend libraries like boostrap but I’m always adding new skills to my list.
             </p>
           </div>
           <!-- skills section -->
-          <div>
+          <!-- <div>
             <div class="row mt-2">
               <div class="col-md-6">
                 <h4>Html/Css</h4>
@@ -122,7 +131,7 @@
                 </div>
               </div>
             </div>   
-          </div>
+          </div> -->
           <!-- end skills section -->
           <div class="mt-5">
             <form method="get" target="_blank" action="./docs/resume-manjushreeb.pdf">
@@ -145,88 +154,116 @@
   <!-- portfolio -->
 
   <section id="portfolio">
-    <div class="container mt-5 pt-5 pb-5">
+    <div class="container py-5">
       <h1 class="section-title">My Work</h1>
-      <div class="row mt-5">
+      <div class="row mx-auto">
 
-        <div class="col-md-6 p-3">
+        <div class="col-sm-12 col-md-4 mt-4">
           <div class="box">
             <img src="./images/2021-08-28.png" alt="Avatar" class="image">
             <div class="overlay">
               <div class="text">
                 <h3>Lense Shopping Portal</h3>
-                <button type="button" class="btn btn-light">
+                <button type="button" class="btn">
                   <a target="_blank" href="http://lenseshoppingportal.epizy.com/?i=1">View Site</a> </btn>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 p-3">
+        <div class="col-sm-12 col-md-4 mt-4">
           <div class="box">
             <img src="./images/2021-07-16.png" alt="Avatar" class="image">
             <div class="overlay">
               <div class="text">
                 <h3>Mumbai Tourist Guide</h3>
-                <button type="button" class="btn btn-light">
+                <button type="button" class="btn">
                   <a target="_blank" href="http://mumbaitourguide.epizy.com/">View Site</a> </btn>
               </div>
             </div>
           </div>
         </div>
 
-      </div>
-
-      <div class="row mt-5 mb-5">
-
-        <div class="col-md-6 p-3">
+        <div class="col-sm-12 col-md-4 mt-4">
           <div class="box">
             <img src="./images/2021-08-28 (1).png" alt="Avatar" class="image">
             <div class="overlay">
               <div class="text">
                 <h3>Epiclo Shopping/ Wordpress</h3>
-                <button type="button" class="btn btn-light">
+                <button type="button" class="btn">
                   <a target="_blank" href="http://imbalkur.epizy.com/">View Site</a> </btn>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 p-3">
+      </div>
+
+      <div class="row mx-auto">
+        <div class="col-sm-12 col-md-4 mt-4">
           <div class="box">
             <img src="./images/2021-09-04 (2).png" alt="Avatar" class="image">
             <div class="overlay">
               <div class="text">
                 <h3>Portfolio Design</h3>
-                <button type="button" class="btn btn-light">
+                <button type="button" class="btn">
                   <a target="_blank" href="https://imbalkur.github.io/DemoPortfolio/">View Site</a> </btn>
               </div>
             </div>
           </div>
         </div>
 
+        <div class="col-sm-12 col-md-4 mt-4">
+          <div class="box">
+            <img src="./images/arch.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">
+                <h3>Architecture Website</h3>
+                <button type="button" class="btn">
+                  <a target="_blank" href="https://imbalkur.github.io/architectureportfolio/">View Site</a> </btn>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mt-4">
+          <div class="box">
+            <img src="./images/razia.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">
+                <h3>Jewellery Website</h3>
+                <button type="button" class="btn">
+                  <a target="_blank" href="https://imbalkur.github.io/raziajewels/">View Site</a> </btn>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+
+      <div class="mb-5"></div>
     </div>
   </section>
 
   <!-- contact -->
 
-  <section id="contact">
+  <!-- <section id="contact">
     <div class="container">
-      <!-- <h1 class="section-title">
-        Contact Me
-      </h1> -->
-      <!-- <div class="contact">
-        <div class="btn">
-          <div class="icon">
-            <i class="fas fa-envelope"></i>
-          </div>
-        </div>
-        <p></p>
-      </div> -->
       <div class="contact-body d-flex justify-content-between pt-5 pb-5">
         <p>Have any work to be done by me?</p>
       <div class="btn btn-outline-dark">
         <a class="text-light" href="https://mail.google.com/mail/?view=cm&fs=1&to=mbalkur99@gmail.com&su=SUBJECT&body=BODY" target="_blank"> Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section id="contact">
+    <div class="container py-5">
+      <h1 class="text-uppercase">Get In Touch</h1>
+      <div class="col py-4 text-muted">
+        Mumbai, Maharahtra
+      </div>
+      <div class="btn btn-outline-dark">
+        <a class="" href="https://mail.google.com/mail/?view=cm&fs=1&to=mbalkur99@gmail.com&su=SUBJECT&body=BODY" target="_blank"> Contact Me</a>
         </div>
       </div>
     </div>
