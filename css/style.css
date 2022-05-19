@@ -20,6 +20,9 @@ a{
   max-width: 1200px !important;
 }
 
+.bold {
+  font-weight: 700;
+}
 
 
 /* navbar */
@@ -114,9 +117,10 @@ a{
 /* portfolio */
 
 #portfolio{
-  background: rgb(241, 241, 241);
+  background-color: rgb(253, 238, 233);
+  /* background: rgb(241, 241, 241); */
   /* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-  background: linear-gradient(to left, #FFFFFF, #ECE9E6); */
+  /* background: linear-gradient(to left, #FFFFFF, #ECE9E6); */ 
   text-align: center;
 }
 
