@@ -192,11 +192,11 @@ a{
 
 /* contact */
 
-#contact {
-  /* background: #f46b45; */
-  /* background: -webkit-linear-gradient(to right, #eea849, #f46b45);
-  background: linear-gradient(to right, #eea849, #f46b45); */
-}
+/* #contact {
+  background: #f46b45;
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);
+  background: linear-gradient(to right, #eea849, #f46b45);
+} */
 
 .contact-body {
   color: white;
